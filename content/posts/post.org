@@ -1,0 +1,15 @@
+---
+title: "Test Post"
+date: 2026-02-13T12:00:00Z
+draft: false
+tags: ["test", "hugo"]
+summary: "This is test post to cheak if everything is working "
+---
+
+
+** test post
+this is test post to see if everything works :)
+
+* gitlab link
+Hello there this is
+ [[https://gitlab.com/harshborana][My Gitlab]]

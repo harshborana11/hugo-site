@@ -1,0 +1,7 @@
+#+title: HOME
+
+I'm Harsh Borana\\
+I'm currently 18 years old\\
+Exploring C, GNU/Linux, and other interesting projects\\
+I enjoy building things and learning new skills\\
+This is my website, which I built using Org and Hugo with the Blowfish theme\\

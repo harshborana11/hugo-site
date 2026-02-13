@@ -1,0 +1,71 @@
+:root {
+  --color-background: 254, 254, 254;
+  --color-secondary-background: 190, 190, 190;
+
+  --color-neutral: 63, 63, 63;
+  --color-neutral-variant: 134, 120, 108;
+
+  --color-primary-400: 60, 129, 134;
+  --color-primary-500: 60, 129, 134;
+  --color-primary-600: 86, 141, 139;
+
+  --color-secondary-400: 99, 130, 125;
+}
+
+.dark {
+  --color-background: 16, 18, 19;
+  --color-secondary-background: 89, 99, 110;
+
+  --color-neutral: 195, 195, 196;
+  --color-neutral-variant: 134, 120, 108;
+
+  --color-primary-400: 60, 129, 134;
+  --color-primary-600: 86, 141, 139;
+
+  --color-secondary-400: 99, 130, 125;
+}
+.dark pre { background-color: #3c3836 !important; }
+pre { background-color: #f2e5bc !important; }
+body {
+  background-color: rgb(var(--color-background));
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  width: 0%;
+  height: 2px;
+  background: rgb(var(--color-primary-400));
+  transition: width 0.3s ease;
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+.article-content a {
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+}
+.article-content a:hover {
+    background-color: rgba(var(--color-neutral), 1);
+    color:rgba(var(--color-background), 1);
+}
+
+.article-content a::after {
+  content: "";
+  position: absolute;
+  background:rgba(var(--color-neutral), 1);
+  left: 0;
+  width: 100%;
+  bottom: -3px;
+  height: 2px;
+}
