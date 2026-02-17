@@ -3,6 +3,7 @@
   --color-secondary-background: 190, 190, 190;
 
   --color-neutral: 63, 63, 63;
+  --color-neutral-900:  86, 141, 139;
   --color-neutral-variant: 134, 120, 108;
 
   --color-primary-400: 60, 129, 134;
@@ -24,8 +25,49 @@
 
   --color-secondary-400: 99, 130, 125;
 }
-.dark pre { background-color: #3c3836 !important; }
-pre { background-color: #f2e5bc !important; }
+.chroma {
+  margin: 1.5rem 0;
+  border: 2px solid rgb(var(--color-neutral) , 1);
+  overflow: hidden;
+  background-color: rgb(var(--color-background) , 1);
+  border-radius: 20px;
+  max-width:80vw;
+  font-size:1rem;
+}
+.chroma .lntable {
+  width: 100%;
+  border:none;
+}
+.chroma .lntd {
+  background-color: rgb(var(--color-background) , 1);
+  border: none;
+}
+
+.lntd .chroma {
+  border:none;
+}
+.dark .chroma .lntd {
+  background-color: rgb(var(--color-background) , 1);
+}
+.chroma .lntd:first-child {
+  padding: 1rem 0.8rem;
+  opacity: 0.35;
+  text-align: right;
+  user-select: none;
+  min-width: 3rem;
+}
+.chroma .lntd:last-child {
+  padding: 1rem 1.2rem;
+}
+.chroma pre {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+}
+.chroma code {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.95rem;
+}
 body {
   background-color: rgb(var(--color-background));
 }
@@ -68,4 +110,39 @@ a:hover::after {
   width: 100%;
   bottom: -3px;
   height: 2px;
+}
+.main-menu{
+  width:98vw;
+  font-style: normal;
+  padding:1rem;
+  position: absolute;
+  top: 0;
+  z-index: 11;
+  left: 1vw;
+
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.article,
+.card,
+main {
+  animation: fadeSlideUp 0.7s ease-out;
+}
+
+#main-content{
+  margin-top: 5rem;
+  min-width: 60vw;
+}
+#search-wrapper{
+  background:none;
 }

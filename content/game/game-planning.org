@@ -1,0 +1,43 @@
+#+title: Planning of the game
+#+date: 2026-02-14T16:30:00+05:30
+#+draft: false
+#+tags[]: c
+#+tags[]: programming
+#+tags[]: game
+#+summary: "This is my game planning"
+
+* planning of project
+** game design
+*** how game works
+i plan to make game where its mostly inspired by stardew valley world and roadwarden mechanics,
+if youre unfamiilar which this its just a visual novel type game where there little more freedom then usual
+amount of freedom is completely based on steariotype and i have never played any visual novel games
+
+*** world building and story
+ so basically story takes place in a valley/town (similar to stardwew valley)
+ and our player inherits his grandfather's land in the valley which he'll be moving into after getting tired of the city life
+ game will have various npcs, some have special powers, not like actual super powers but more on normal end where one can feel the nature more easily and can affect growth of plants and stuff, one which can affect and feel change in atmosphere/weather one which can interact with animals and listen to them ect, our main protagonist can may or may not have these powers,
+ our main protagonist can choose various fields like blacksmith, glassmaking, farming,fishing ect.
+ game will have good story and everything you do makes an impact on the story
+ ill make anotehr post for this related to the final story sometime in the furure in posts section.
+
+
+*** mechanics
+i planned this game to be a 2d visual novel type rpg with little more freedom player can choolse where to go depending on the current location
+its more of turn based rpg so after everymove you wait for the time to pass and you will randomly get thoughts which will dinamically will be added according to work you do in the day or past few days, you remember facts related to your work your grandpa told you or somehting you noticed later
+each npc have large number of lines and depending on what you do in the day their dialouge changes and will make this game more engaging with logn talk as its just text based game in the end.
+i still dont know how will i add monsters and stuff in the game will think about it and add it in the other post related to game mechanics,
+
+** making a framework for game
+***  introduction
+  This is simple introduction to how i plan to make my game framework for the perticular type of game whic I'am trying to make.\\
+  - i want to make a frameowrk which can make similar game with diffrent story easily
+  - framework will contain how player moves and how npc move and all the general game logic stuff
+
+***  about what it'll have
+it will have all the logic defined in game design basically this will be the framework for the above game design and story can be replaced with anu other story
+
+*** game language
+game will be completely made in c and its just a fun project as i started learning c and had overwelming desire to make a game which i had planned to make for quire some time now
+
+

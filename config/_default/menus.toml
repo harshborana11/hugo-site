@@ -21,8 +21,8 @@ pageRef = "/posts"
 weight = 2
 
 [[main]]
-name = "About"
-pageRef = "/about"
+name = "Game Blog"
+pageRef = "/game"
 weight = 3
 
 #[[main]]

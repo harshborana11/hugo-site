@@ -1,0 +1,16 @@
+#+title: day 3
+#+date: 2026-02-16T17:30:00+05:30
+#+tags[]: c
+#+tags[]: programming
+#+tags[]: game
+#+draft: false
+#+summary: "This is day 3 of me making a game"
+
+* progress
+- made new files which will be required by game engine contains game data like items and characters and dialouges ect
+- changed name of framework to core
+
+not much progress, busy day (again).
+
+* current progress - at gitlab
+ [[https://gitlab.com/harshborana/gameengine][Gitlab repo]]

@@ -2,7 +2,7 @@
 title: "Test Post"
 date: 2026-02-13T12:00:00Z
 draft: false
-tags: ["test", "hugo"]
+tags: ["", ""]
 summary: "This is test post to cheak if everything is working "
 ---
 

@@ -3,15 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://harshborana11.github.io/</loc>
+    <loc>/game/day3/</loc>
+    <lastmod>2026-02-16T17:30:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/game/</loc>
+    <lastmod>2026-02-16T17:30:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/</loc>
+    <lastmod>2026-02-16T17:30:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/game/day2/</loc>
+    <lastmod>2026-02-15T17:30:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/game/day1/</loc>
+    <lastmod>2026-02-14T12:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>/game/game-planning/</loc>
+    <lastmod>2026-02-14T16:30:00+05:30</lastmod>
+  </url>
+  <url>
+    <loc>/posts/</loc>
     <lastmod>2026-02-13T12:00:00+00:00</lastmod>
   </url>
   <url>
-    <loc>https://harshborana11.github.io/posts/</loc>
-    <lastmod>2026-02-13T12:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://harshborana11.github.io/posts/post/</loc>
+    <loc>/posts/post/</loc>
     <lastmod>2026-02-13T12:00:00+00:00</lastmod>
   </url>
 </urlset>

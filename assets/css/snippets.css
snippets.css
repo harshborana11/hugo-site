@@ -1,0 +1,32 @@
+[data-theme="dark"] {
+  --snip-bg: #101213;
+  --snip-bg-soft: #59636e;
+  --snip-fg: #c3c3c4;
+  --snip-accent: #3C8186;
+  --snip-border: #63827D;
+}
+
+[data-theme="light"] {
+  --snip-bg: #f4f4f4;
+  --snip-bg-soft: #e6e6e6;
+  --snip-fg: #222222;
+  --snip-accent: #3C8186;
+  --snip-border: #86786C;
+}
+
+body {
+  background-color: var(--snip-bg) !important;
+  color: var(--snip-fg) !important;
+}
+
+a {
+  color: var(--snip-accent) !important;
+}
+
+pre, code {
+  background-color: var(--snip-bg-soft) !important;
+  color: var(--snip-fg) !important;
+}
+blockquote {
+  border-left: 4px solid var(--snip-accent) !important;
+}

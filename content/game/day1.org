@@ -1,0 +1,36 @@
+#+title: day 1
+#+date: 2026-02-14T12:00:00Z
+#+tags[]: c
+#+tags[]: programming
+#+tags[]: game
+#+draft: false
+#+summary: "this is day 1 of me making a game "
+
+* starting of the project
+i made some basic functions and files which will contain the new game and contunue fame function.
+New game fnuction and contunue game function are just skeletons and i have yet to add the funcion to actually make it work
+added save file dir cheaker and listing the save files later the code to load and play will be added,
+
+#+begin_src c
+void continue_game() {
+
+    char gamefile[256];
+    get_game_save(gamefile);
+
+    printf("%s \n", gamefile);
+
+    if (strcmp(gamefile, "0") == 0) {
+        printf("you should start new game, there are no save files");
+        return;
+    }
+
+    // logic to load game will be added later
+
+    printf("game continues with the save file : %s \n", gamefile);
+}
+#+end_src
+
+ and i also created this website to record my daily progress
+
+* current progress - at gitlab
+ [[https://gitlab.com/harshborana/gameengine][Gitlab repo]]

@@ -1,0 +1,18 @@
+#+title: day 2
+#+date: 2026-02-15T17:30:00+05:30
+#+tags[]: c
+#+tags[]: programming
+#+tags[]: game
+#+draft: false
+#+summary: "This is day 2 of me making a game"
+
+
+* progress
+- started using cmake
+- fixed some overflow risks and added fallbacks to "may fail" functions
+- added function to check and get files from .config dir in linux
+
+*** not much progress, busy day.
+
+* current progress - at gitlab
+ [[https://gitlab.com/harshborana/gameengine][Gitlab repo]]

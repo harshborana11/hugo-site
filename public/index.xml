@@ -2,19 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HOME on Harsh Borana</title>
-    <link>https://harshborana11.github.io/</link>
+    <link>/</link>
     <description>Recent content in HOME on Harsh Borana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-    <lastBuildDate>Fri, 13 Feb 2026 12:00:00 +0000</lastBuildDate><atom:link href="https://harshborana11.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 16 Feb 2026 17:30:00 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>day 3</title>
+      <link>/game/day3/</link>
+      <pubDate>Mon, 16 Feb 2026 17:30:00 +0530</pubDate>
+      
+      <guid>/game/day3/</guid>
+      <description>&amp;#34;This is day 3 of me making a game&amp;#34;</description>
+      
+    </item>
+    
+    <item>
+      <title>day 2</title>
+      <link>/game/day2/</link>
+      <pubDate>Sun, 15 Feb 2026 17:30:00 +0530</pubDate>
+      
+      <guid>/game/day2/</guid>
+      <description>&amp;#34;This is day 2 of me making a game&amp;#34;</description>
+      
+    </item>
+    
+    <item>
+      <title>day 1</title>
+      <link>/game/day1/</link>
+      <pubDate>Sat, 14 Feb 2026 12:00:00 +0000</pubDate>
+      
+      <guid>/game/day1/</guid>
+      <description>&amp;#34;this is day 1 of me making a game &amp;#34;</description>
+      
+    </item>
+    
+    <item>
+      <title>Planning of the game</title>
+      <link>/game/game-planning/</link>
+      <pubDate>Sat, 14 Feb 2026 16:30:00 +0530</pubDate>
+      
+      <guid>/game/game-planning/</guid>
+      <description>&amp;#34;This is my game planning&amp;#34;</description>
+      
+    </item>
     
     <item>
       <title>Test Post</title>
-      <link>https://harshborana11.github.io/posts/post/</link>
+      <link>/posts/post/</link>
       <pubDate>Fri, 13 Feb 2026 12:00:00 +0000</pubDate>
       
-      <guid>https://harshborana11.github.io/posts/post/</guid>
+      <guid>/posts/post/</guid>
       <description>This is test post to cheak if everything is working</description>
       
     </item>

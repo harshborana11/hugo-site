@@ -183,3 +183,14 @@ forgejoDefaultServer = "https://v11.next.forgejo.org"
 
 [advertisement]
   # adsense = ""
+#
+
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/harshborana11"
+
+[[params.social]]
+  name = "x"
+  url = "https://x.com/yourhandle"
+

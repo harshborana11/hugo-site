@@ -1,3 +1,9 @@
 languageCode = "en"
 title = "Harsh Borana"
 theme = "blowfish"
+
+[markup]
+  [markup.highlight]
+    style = "gruvbox"
+    lineNos = true
+
